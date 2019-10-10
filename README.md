@@ -1,2 +1,3 @@
-# udemy_python_bootcamp_tic_tac_toe
-Udemy python bootcamp milestone project 1
+# Udem python bootcamp milestone project 1 - tic tac toe
+
+create a tic tac toe game for 2 human players playing on the same computer.
