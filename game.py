@@ -1,5 +1,4 @@
 from IPython.display import clear_output
-import os
 
 def print_example_board():
     print('Number scheme of the tic tac toe board is given below')
@@ -50,7 +49,6 @@ def playtime():
     if response.lower()=='y' or response.lower()=='yes':
         game_no = 1
         clear_output()
-        os.system('cls')
     elif response.lower()=='n' or response.lower()=='no':
         game_no = -10000
     else:
@@ -82,7 +80,6 @@ def start_game():
         while win_check == False:
             number = int(input('enter number'))
             clear_output()
-            os.system('cls')
             dict1[number] = update_board(turn)
             turn+=1
             player_win_check = winner_check(dict1)
